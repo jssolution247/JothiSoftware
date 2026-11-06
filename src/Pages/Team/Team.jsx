@@ -1,7 +1,7 @@
 import "./Team.css";
 import Reveal from "../../components/Reveal/Reveal";
 
-import image2 from "../../assets/cto.png";
+import image2 from "../../assets/CTO.png";
 import image3 from "../../assets/developer.png";
 
 const Team = () => {
