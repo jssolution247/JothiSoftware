@@ -6,6 +6,7 @@ import About from "../About/About";
 import Whyus from "../../components/Whyus/Whyus";
 import Testimonials from "../../components/Testimonials/Testimonials";
 import Contact from "../Contact/Contact";
+import Team from "../Team/Team";
 
 function Home() {
   return (
@@ -16,6 +17,7 @@ function Home() {
       <About />
       <Whyus />
       <Testimonials />
+      <Team />
       <Contact />
     </>
   );

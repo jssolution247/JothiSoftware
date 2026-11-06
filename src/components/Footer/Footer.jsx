@@ -58,7 +58,7 @@ const Footer = () => {
             <h5>Support</h5>
             <ul>
               <li><a href="#contact">Contact</a></li>
-              <li><a href="tel:+91">Call: +91</a></li>
+              <li><a href="tel:+918015566147">Call: +918015566147</a></li>
               <li><a href="mailto:jssolution247@gmail.com">Email Us</a></li>
             </ul>
           </div>

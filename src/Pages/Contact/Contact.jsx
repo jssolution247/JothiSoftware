@@ -83,7 +83,7 @@ const Contact = () => {
               <div className="contact-icon">☎</div>
               <div>
                 <h4>Call Us</h4>
-                <a href="tel:+91">+91</a>
+                <a href="tel:+918015566147">+91 80155 66147</a>
               </div>
             </div>
 
@@ -92,6 +92,10 @@ const Contact = () => {
               <div>
                 <h4>Visit Us</h4>
                 <p>No.10, Bethesda Hospital Road, Ambur, Tamil Nadu 635802</p>
+                <br />
+                <p>
+                  238, EPIP 2nd Phase KIADB Industrial Area, Whitefield, EPIP Zone, Brookefield, Bengaluru, Karnataka 560066
+                </p>
               </div>
             </div>
 
@@ -112,7 +116,7 @@ const Contact = () => {
                 <input
                   type="text"
                   name="firstName"
-                  placeholder="John"
+                  placeholder="first name"
                   value={formData.firstName}
                   onChange={handleChange}
                 />
@@ -124,7 +128,7 @@ const Contact = () => {
                 <input
                   type="text"
                   name="lastName"
-                  placeholder="Doe"
+                  placeholder="last name"
                   value={formData.lastName}
                   onChange={handleChange}
                 />
@@ -137,7 +141,7 @@ const Contact = () => {
               <input
                 type="email"
                 name="email"
-                placeholder="john@example.com"
+                placeholder="email"
                 value={formData.email}
                 onChange={handleChange}
               />

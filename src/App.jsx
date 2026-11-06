@@ -7,17 +7,22 @@ import Home from "./Pages/Home/Home";
 import About from "./Pages/About/About";
 import Services from "./Pages/Services/Services";
 import Contact from "./Pages/Contact/Contact";
+import ScrollToTop from "./components/ScrollToTop/ScrollToTop";
+import Team from "./Pages/Team/Team";
 
 function App() {
   return (
     <HashRouter>
       <Navbar />
+      <ScrollToTop />
+
 
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/services" element={<Services />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/team" element={<Team />} />
       </Routes>
 
       <Footer />

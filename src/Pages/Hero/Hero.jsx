@@ -13,9 +13,9 @@ const Hero = () => {
           ✨ Premium Digital Solutions
         </div>
 
-        <h1>
-          Scale Your Business <span>Beyond Limits</span>
-        </h1>
+        <h1 className="hero-title">
+  Your Digital Growth Partner From <span>Ideas to Impact</span>
+</h1>
 
         <p className="hero-subtitle" style={{ fontFamily: 'Arial, sans-serif', fontSize: '18px', lineHeight: '1.5' }}>
           <TypingText />
