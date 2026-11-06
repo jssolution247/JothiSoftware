@@ -8,6 +8,7 @@ import Testimonials from "../../components/Testimonials/Testimonials";
 import Contact from "../Contact/Contact";
 import Team from "../Team/Team";
 
+
 function Home() {
   return (
     <>

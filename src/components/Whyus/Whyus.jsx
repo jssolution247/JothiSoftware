@@ -1,3 +1,5 @@
+  import Reveal from "../../components/Reveal/Reveal";
+
 const WhyUs = () => {
   const reasons = [
     {
@@ -39,6 +41,7 @@ const WhyUs = () => {
   ];
 
   return (
+    <Reveal>
     <section className="why-us" id="why-us">
 
       <div className="why-us-container">
@@ -117,6 +120,7 @@ const WhyUs = () => {
       </div>
 
     </section>
+    </Reveal>
   );
 };
 

@@ -1,10 +1,12 @@
 import heroImage from "../../assets/hero.jpg";
 import TypingText from "../TypingText/TypingText";
 import { NavLink } from "react-router-dom";
+import Reveal from "../../components/Reveal/Reveal";
 
 const Hero = () => {
   return (
-    <section className="hero">
+    <Reveal>
+      <section className="hero">
 
       {/* Left Content */}
       <div className="hero-content">
@@ -96,6 +98,7 @@ const Hero = () => {
       </div>
 
     </section>
+    </Reveal>
   );
 };
 

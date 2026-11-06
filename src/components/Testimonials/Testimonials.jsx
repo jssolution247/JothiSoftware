@@ -1,3 +1,5 @@
+import Reveal from "../../components/Reveal/Reveal";
+
 const Testimonials = () => {
   const testimonials = [
     {
@@ -31,6 +33,7 @@ const Testimonials = () => {
   ];
 
   return (
+    <Reveal>
     <section className="testimonials" id="testimonials">
       <div className="testimonials-container">
         <div className="testimonials-heading">
@@ -66,6 +69,7 @@ const Testimonials = () => {
         </div>
       </div>
     </section>
+    </Reveal>
   );
 };
 

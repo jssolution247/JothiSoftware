@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import Reveal from "../../components/Reveal/Reveal";
 
 const TypingText = () => {
   const texts = [
@@ -39,12 +40,14 @@ const TypingText = () => {
   }, [currentText, index]);
 
   return (
-    <span className="typing-text">
-      {visibleTexts.map((item, index) => (
-        <span key={index}>
-          {index > 0 && ", "}
-          {item}
+    <Reveal>
+      <span className="typing-text">
+        {visibleTexts.map((item, index) => (
+          <span key={index}>
+            {index > 0 && ", "}
+            {item}
         </span>
+
       ))}
 
       {currentText && (
@@ -55,6 +58,8 @@ const TypingText = () => {
         </>
       )}
     </span>
+    </Reveal>
+
   );
 };
 

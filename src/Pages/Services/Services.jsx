@@ -1,4 +1,5 @@
 import { NavLink } from "react-router-dom";
+import Reveal from "../../components/Reveal/Reveal";
 
 const Services = () => {
   const services = [
@@ -41,6 +42,7 @@ const Services = () => {
   ];
 
   return (
+    <Reveal>
     <section className="services" id="services">
 
       <div className="services-container">
@@ -98,6 +100,7 @@ const Services = () => {
       </div>
 
     </section>
+    </Reveal>
   );
 };
 

@@ -1,4 +1,5 @@
 import { useState } from "react";
+import Reveal from "../../components/Reveal/Reveal";
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -49,6 +50,7 @@ const Contact = () => {
   };
 
   return (
+    <Reveal>
     <section className="contact" id="contact">
       <div className="contact-container">
         <div className="contact-heading">
@@ -84,6 +86,8 @@ const Contact = () => {
               <div>
                 <h4>Call Us</h4>
                 <a href="tel:+918015566147">+91 80155 66147</a>
+                <br />
+                <a href="tel:+918925350147">+91 89253 50147</a>
               </div>
             </div>
 
@@ -180,7 +184,9 @@ const Contact = () => {
           ></iframe>
         </div>
       </div>
+      
     </section>
+    </Reveal>
   );
 };
 

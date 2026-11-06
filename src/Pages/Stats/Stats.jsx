@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-
+import Reveal from "../../components/Reveal/Reveal";
 
 /* =========================
    COUNTER COMPONENT
@@ -90,7 +90,8 @@ const Stats = () => {
 
 
   return (
-    <section className="stats">
+    <Reveal>
+      <section className="stats">
 
       {stats.map((stat, index) => (
 
@@ -113,6 +114,7 @@ const Stats = () => {
       ))}
 
     </section>
+    </Reveal>
   );
 };
 

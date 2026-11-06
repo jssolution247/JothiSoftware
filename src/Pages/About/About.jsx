@@ -1,8 +1,10 @@
 import "./About.css";
+import Reveal from "../../components/Reveal/Reveal";
 
 const About = () => {
   return (
-    <section className="about" id="about">
+    <Reveal>
+      <section className="about" id="about">
 
       <div className="about-container">
 
@@ -130,6 +132,7 @@ const About = () => {
       </div>
 
     </section>
+    </Reveal>
   );
 };
 
