@@ -1,6 +1,6 @@
 import "./Team.css";
 import Reveal from "../../components/Reveal/Reveal";
-
+import image1 from "../../assets/CEO.jpeg"
 import image2 from "../../assets/CTO.png";
 import image3 from "../../assets/developer.png";
 
@@ -9,7 +9,7 @@ const Team = () => {
     {
       name: "Gowtham",
       role: "Founder & CEO",
-      image: null,  // Placeholder for the founder's image
+      image: image1,  // Placeholder for the founder's image
     },
     {
       name: "name",
