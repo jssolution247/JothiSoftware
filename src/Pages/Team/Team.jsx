@@ -12,12 +12,12 @@ const Team = () => {
       image: image1,  // Placeholder for the founder's image
     },
     {
-      name: "name",
+      name: "Nandhini ",
       role: "CTO",
       image: image2,
     },
     {
-      name: "name",
+      name: "Mogana shankari",
       role: "Senior Developer",
       image: image3,
     },
