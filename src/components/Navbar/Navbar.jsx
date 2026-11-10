@@ -47,9 +47,9 @@ function Navbar() {
             Team
           </NavLink>
 
-          <NavLink to="/career" className={({ isActive }) => isActive ? "nav-link active" : "nav-link"}>
+          {/* <NavLink to="/career" className={({ isActive }) => isActive ? "nav-link active" : "nav-link"}>
             Career
-          </NavLink>
+          </NavLink> */}
 
           <NavLink to="/contact" className={({ isActive }) => isActive ? "nav-link active" : "nav-link"}>
             Contact
